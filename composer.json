@@ -1,0 +1,26 @@
+{
+    "name": "peterls/sale_domain",
+    "description": "Page for sale a domain",
+    "keywords": [
+        "peterls",
+        "sale"
+    ],
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Petr Slobodyanyuk",
+            "email": "support@web-kiborg.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.32",
+        "ext-mbstring": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PeterLS\\SaleDomain\\": "src/"
+        }
+    }
+}

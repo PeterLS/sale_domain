@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <title>Домен {{domain_name}} продается</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      position: relative;
+      height: 100vh;
+      color: #333;
+    }
+    a {
+      color: #333;
+    }
+    .main {
+      background-color: #efefef;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      border-radius: 20px;
+      width: 100%;
+      max-width: 600px;
+      padding: 40px;
+      transform: translate(-50%, -50%);
+    }
+    .main .logo {
+      background: url("https://web-kiborg.ru/images/logo.png") transparent no-repeat center;
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 20px;
+    }
+    .main h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="main">
+  <div class="logo"></div>
+  <h1>Домен {{domain_name}} продается!</h1>
+  <p>Этот домен принадлежит компании <a href="https://web-kiborg.ru" target="_blank" title="ВЕБ-Киборг - создание и обслуживание сайтов">ВЕБ-Киборг</a>, но вы можете купить его.</p>
+  <h2>Контакты</h2>
+  <ul>
+    <li>Email: <a href="mailto:support@web-kiborg.ru" target="_blank">support@web-kiborg.ru</a></li>
+    <li>Сайт: <a href="https://web-kiborg.ru" target="_blank">web-kiborg.ru</a></li>
+  </ul>
+  <h4>Полезные ссылки:</h4>
+  <ul>
+    <li><a href="https://seolik.ru/age" rel="nofollow" target="_blank" title="Откроется в новом окне">Проверить возраст домена</a></li>
+    <li><a href="https://yandex.ru/search?text={{domain_name}}" rel="nofollow" target="_blank" title="Откроется в новом окне">Упоминания домена в Яндексе</a></li>
+    <li><a href="https://google.ru/search?q={{domain_name}}" rel="nofollow" target="_blank" title="Откроется в новом окне">Упоминания домена в Google</a></li>
+  </ul>
+</div>
+</body>
+</html>
